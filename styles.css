@@ -27,7 +27,16 @@ header {
     align-items: center;
     height: 70px;
     padding: 0px 40px 0px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
     
+}
+#menu-toggle {
+    display: none;
+}
+.menu-label {
+    display: none;
 }
 
 .logo-pet {
@@ -70,7 +79,7 @@ header {
     top: 0;
     bottom: 0;
     background-color: var(--border);
-    z-index: -1.2;
+    z-index: -1;
 
     left: 100%;
     width: 0%;
@@ -94,7 +103,7 @@ main {
     justify-content: center;
     color: antiquewhite;
     width: 100%;
-    height: 100%;
+    height: 100%; 
     border: 1px solid var(--border) ;
 }
 

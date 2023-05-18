@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Landing</title>
     <link rel="stylesheet" href="./styles.css ">
+    <link rel="stylesheet" href="/mediaquaries.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
     </style>
@@ -16,7 +17,11 @@
     <header>
         <img class="logo-pet" src="./epfinal-removebg-preview.png" alt="logo de empresa">
         <nav class="navbar">
-           <ul class="navbar-list">
+            <label for="menu-toggle" class="menu-label">
+                <img src="/menu.png" alt="icono menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            <ul class="navbar-list">
                 <li><a href="#" class="navbar-list-item">Inicio</a></li>
                 <li><a href="#" class="navbar-list-item">Productos</a></li>
                 <li><a href="#" class="navbar-list-item">Pedidos</a></li>
@@ -39,7 +44,7 @@
                 </div>
             </div>
             <div class="hero-img">
-                <img src="/perrito-gatito.jpg" alt="Perrito y Gatito">
+                <img class="img-pg" src="/perrito-gatito.jpg" alt="Perrito y Gatito">
             </div>
         </section>
         <section id="hero-ab-us">
