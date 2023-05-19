@@ -126,6 +126,19 @@
     .hero-info p {
         width: 80%;
     }
-    
+    .hero-ab-us-inf p {
+        padding: 0px 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .present-cards p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .container-cards-box {
+       width: 120%;
+    }
 
 }
